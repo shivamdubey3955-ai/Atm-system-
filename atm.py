@@ -31,14 +31,14 @@ def card_insert_animation():
 
 
 class User:
-    def _init_(self, name, pin, balance):
+    def __init__(self, name, pin, balance):
         self.name = name
         self.pin = pin
         self.balance = balance
 
 
 class ATM:
-    def _init_(self):
+    def __init__(self):
         self.users = [
             User("Raj", 1234, 10000),
             User("Aman", 4321, 15000),
